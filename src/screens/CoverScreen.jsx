@@ -7,7 +7,6 @@ import {
   StyleSheet,
 } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
-
 import CoverImage from '../assets/Home.png'; // Ensure the image exists
 import LogoImage from '../assets/Logo.png';  // Your logo image
 
@@ -34,7 +33,7 @@ const CoverScreen = () => {
 
       {/* Title */}
       <Text style={styles.title}>
-        AI-Optimized Smart Home{"\n"}Energy Automation
+        AI-Optimized Smart Home Energy Automation
       </Text>
 
       {/* Cover Image */}
@@ -62,12 +61,12 @@ const styles = StyleSheet.create({
     height: 32,
   },
   logo: {
-    width: 200,
-    height: 90,
+    width: 300,
+    height: 100,
     marginBottom: 10,
   },
   title: {
-    fontSize: 28,
+    fontSize: 22,
     textAlign: 'center',
     fontWeight: '600',
     marginBottom: 25,
